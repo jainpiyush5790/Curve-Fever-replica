@@ -39,7 +39,7 @@ public class Snake : MonoBehaviour
     //this collider is used to show what object we have hit
      void OnTriggerEnter2D(Collider2D col)
     {
-        if(col.tag =="  ")
+        if(col.tag =="killsPlayer")
         {
             speed=0f;
             rotationSpeed=0f;
